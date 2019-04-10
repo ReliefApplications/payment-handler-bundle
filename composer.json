@@ -1,0 +1,21 @@
+{
+    "name": "relief_applications/payment-handler-bundle",
+    "description": "Helper to handle the successful payment request coming from the Relief Applications payment server",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Grégoire Rabasse",
+            "email": "gregoire.reliefapps@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "RA\\PaymentHandlerBundle\\" : ""
+        }
+    },
+    "require": {
+        "php" : ">=7.0",
+        "symfony/framework-bundle" : ">=3.4"
+    }
+}
